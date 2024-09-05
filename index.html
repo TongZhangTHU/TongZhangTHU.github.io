@@ -20,11 +20,11 @@
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
-                  Tong Zhang
+                  Tong Zhang  张彤
                 </p>
                 <p>I am a Ph.D. student at <a href="https://iiis.tsinghua.edu.cn/en/"> Institute for Interdisciplinary Information Sciences</a> (IIIS, headed by Turing award winner Prof. <a href="https://iiis.tsinghua.edu.cn/yao/">Andrew Chi-Chih Yao</a>), <a href="https://www.tsinghua.edu.cn/en/"> Tsinghua University</a>. I am fortunate to be advised by Prof. <a href="https://yang-gao.weebly.com/">Yang Gao</a>. Previously, I received my bachelor degree from <a href="https://www.ee.tsinghua.edu.cn/en/">Department of Electronic Engineering</a> in Tsinghua University.
                 <p>
-                  My primary research interest lies at the intersection of computer vision and robotics. I am particularly focused on the application of 3D vision in robotic perception and am committed to developing universal and real-world effective perception modules for robots.
+                  My primary research interest is in Embodied AI, which lies at the intersection of Artificial Intelligence and Robotics. I focus on topics such as robotic manipulation, 3D vision, representation learning, and sample efficiency. Recently, I am particularly interested in humanoid whole-body control.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:zhangton20@mails.tsinghua.edu.cn">Email</a> &nbsp;/&nbsp;
@@ -37,6 +37,17 @@
                 <img style="width:100%;max-width:100%" alt="profile photo" src="images/TongZhang.jpg"></a>
               </td>
             </tr>
+
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2 style="margin-bottom: 20px;">News</h2>
+              <li style="margin-bottom: 15px; text-indent: 20px;">[2024.09] Three papers (SGRv2, RLFP, and General Flow) are accepted at CoRL 2024.</li>
+              <li style="margin-bottom: 15px; text-indent: 20px;">[2023.08] One paper (SGR) is accepted at CoRL 2023.</li>
+            </td>
+          </tr>
+            
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
@@ -44,6 +55,7 @@
                 <h2>Publications</h2>
               </td>
             </tr>
+
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
@@ -61,16 +73,34 @@
           
             <strong>Tong Zhang</strong>, <a href="https://yingdong-hu.github.io/">Yingdong Hu</a>,  Jiacheng You</a>, <a href="https://yang-gao.weebly.com/">Yang Gao</a>
             <br>
-            <em>arXiv</em>, 2024
+            <em>CoRL</em>, 2024
             <br>
             <a href="https://sgrv2-robot.github.io/">project page</a> / 
             <a href="https://arxiv.org/abs/2406.10615">arXiv</a> /
-            <a href="https://github.com/TongZhangTHU/sgr">code</a>
+            <a href="https://github.com/TongZhangTHU/sgr">code</a> /
+            <a href="https://x.com/TongZha22057330/status/1831559156463177858">X summary</a>
             <p></p>
             <p>We introduce <strong>SGRv2</strong>, an imitation learning framework that enhances sample efficiency through improved visual and action representations. Central to the design of SGRv2 is the incorporation of a critical inductive bias-<strong>action locality</strong>, which posits that robot's actions are predominantly influenced by the target object and its interactions with the local environment.</p>
           </td>
         </tr>
 
+      </tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/RLPF.png" width="283" height="160">
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="">
+          <span class="papertitle">Reinforcement Learning with Foundation Priors: Let the Embodied Agent Efficiently Learn on Its Own</span>
+        </a>
+        <br>
+        <a href="https://yewr.github.io/">Weirui Ye</a>, Yunsheng Zhang, Haoyang Weng, <a href="https://xianfangu.github.io/">Xianfan Gu</a>, <a href="https://shengjie-bob.github.io/">Shengjie Wang</a>, <strong>Tong Zhang</strong>, Mengchen Wang, <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>, <a href="https://yang-gao.weebly.com/">Yang Gao</a>
+        <br>
+        <em>CoRL</em>, 2024
+        <br>
+        <p></p>
+        <p>We propose Reinforcement Learning with Foundation Priors (<strong>RLFP</strong>) to utilize guidance and feedback from policy, value, and success-reward foundation models. Within this framework, we introduce the Foundation-guided Actor-Critic (FAC) algorithm, which enables embodied agents to explore more efficiently with automatic reward functions.</p>
+      </td>
+    </tr>
 
       </tr>
         <td style="padding:20px;width:25%;vertical-align:middle">
@@ -85,7 +115,7 @@
         
           <a href="https://michaelyuancb.github.io/">Chengbo Yuan</a>, <a href="https://alvinwen428.github.io/">Chuan Wen</a>, <strong>Tong Zhang</strong>, <a href="https://yang-gao.weebly.com/">Yang Gao</a>
           <br>
-          <em>arXiv</em>, 2024
+          <em>CoRL</em>, 2024
           <br>
           <a href="https://general-flow.github.io/">project page</a> / 
           <a href="https://arxiv.org/abs/2401.11439">arXiv</a> /
@@ -115,7 +145,7 @@
           <a href="https://robot-vila.github.io/">project page</a> / 
           <a href="https://arxiv.org/abs/2311.17842">arXiv</a>
           <p></p>
-          <p>We introduce ViLa, a novel approach for long-horizon robotic planning that leverages GPT-4V to generate a sequence of actionable steps. ViLa empowers robots to execute complex tasks with a profound understanding of the visual world.</p>
+          <p>We introduce <strong>ViLa</strong>, a novel approach for long-horizon robotic planning that leverages GPT-4V to generate a sequence of actionable steps. ViLa empowers robots to execute complex tasks with a profound understanding of the visual world.</p>
         </td>
       </tr>
 
