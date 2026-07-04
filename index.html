@@ -22,11 +22,11 @@
                 <p class="name" style="text-align: center;">
                   Tong Zhang  张彤
                 </p>
-                <p>I am a Ph.D. student at <a href="https://iiis.tsinghua.edu.cn/en/"> Institute for Interdisciplinary Information Sciences</a> (IIIS, headed by Turing award winner Prof. <a href="https://iiis.tsinghua.edu.cn/en/People/Faculty/yaoqizhi.htm">Andrew Chi-Chih Yao</a>), <a href="https://www.tsinghua.edu.cn/en/"> Tsinghua University</a>. I am fortunate to be advised by Prof. <a href="https://yang-gao.weebly.com/">Yang Gao</a>. Previously, I received my bachelor's degree from <a href="https://www.ee.tsinghua.edu.cn/en/">Department of Electronic Engineering</a> at Tsinghua University.
+                <p>I received my Ph.D. from the <a href="https://iiis.tsinghua.edu.cn/en/"> Institute for Interdisciplinary Information Sciences</a> (IIIS), <a href="https://www.tsinghua.edu.cn/en/"> Tsinghua University</a>, advised by Prof. <a href="https://yang-gao.weebly.com/">Yang Gao</a>. I previously obtained my bachelor’s degree from the <a href="https://www.ee.tsinghua.edu.cn/en/">Department of Electronic Engineering</a> at Tsinghua University.
                 <p>
                   During my Ph.D., I spent six months as a visiting scholar at <a href="https://www.berkeley.edu/">UC Berkeley</a>, advised by <a href="https://me.berkeley.edu/people/koushil-sreenath/">Koushil Sreenath</a> in the <a href="https://hybrid-robotics.berkeley.edu/">Hybrid Robotics Group (HRG)</a> and <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab (BAIR)</a>. 
                 <p>
-                  My primary research interest is in Embodied AI, which lies at the intersection of Artificial Intelligence and Robotics. I focus on topics such as robotic manipulation, humanoid robots, whole-body control, and representation learning. Recently, I am particularly interested in humanoid loco-manipulation.
+                  My research focuses on Embodied AI, which lies at the intersection of Artificial Intelligence and Robotics.
                 <p>
                   <strong>Email:</strong> tongzhangthu [AT] gmail.com
                 <p>
@@ -72,6 +72,56 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div style="width:300px; height:200px; border-radius:15px; overflow:hidden; position:relative;">
+              <video src="images/OpenHLM.mp4"
+                     autoplay
+                     muted
+                     loop
+                     playsinline
+                     style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+              </video>
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openhlm-project.github.io/">
+                <span class="papertitle">OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation</span>
+              </a>
+              <br>
+              Yingdong Hu*, Haodong Zhu*, Boyuan Zheng*, Yihang Hu*, <strong>Tong Zhang*</strong>, Zunhao Chen, Junming Zhao, Ruiqian Nai, Yang Gao
+              <br>
+              <em>arXiv</em>, 2026
+              <br>
+              <a href="https://openhlm-project.github.io/">project page</a> / 
+              <a href="https://arxiv.org/abs/2606.22174">arXiv</a> /
+              <a href="https://github.com/OpenHLM-project/OpenHLM">code</a>
+              <p></p>
+              <p>We present <strong>OpenHLM</strong>, an open-source recipe for whole-body humanoid loco-manipulation. Through controlled studies on whole-body teleoperation, VLA policy design, and heterogeneous co-training, OpenHLM outperforms GR00T N1.6 and Psi0 with less than half the demonstration time. </p>
+            </td>
+
+          </tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+          <img src="images/Qwen-RobotManip.png" width="283">
+          <img src="images/Qwen-RobotManip-method.png" width="283">
+          <!-- <img src="images/sgr.jpeg" alt="clean-usnob" width="283" height="115"> -->
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://qwen.ai/blog?id=qwen-robotmanip">
+                <span class="papertitle">Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models</span>
+              </a>
+              <br>
+              Haoqi Yuan*, Zhixuan Liang*, Anzhe Chen*, Ye Wang*, Haoyang Li*, Pei Lin*, Yiyang Huang*, Zixing Lei*, <strong>Tong Zhang*</strong>, Jiazhao Zhang, Jie Zhang, Jingyang Fan, Gengze Zhou, Qihang Peng, Chenxu Lv, Xiaoyue Chen, An Yang, Fei Huang, Junyang Lin, Dayiheng Liu, Jingren Zhou, Chenfei Wu<sup>§</sup>, Xiong-Hui Chen<sup>§</sup>
+              <br>
+              <em>Technical Report</em>, 2026
+              <br>
+              <a href="https://qwen.ai/blog?id=qwen-robotmanip">project page</a> / 
+              <a href="https://arxiv.org/abs/2606.17846">arXiv</a> /
+              <a href="https://qwen.ai/blog?id=qwen-robotsuite">blog</a>
+              <p></p>
+              <p>We present <strong>Qwen-RobotManip</strong>, a Vision-Language-Action foundation model for robotic manipulation that studies how unified alignment across heterogeneous robot data enables scalable multi-source training. The model is evaluated on a range of robotic benchmarks and ranks 1st on the RoboChallenge Table30 v1 Generalist Track, demonstrating strong generalization across unseen tasks, scenes, and robot platforms.</p>
+            </td>
+          </tr>
+
           </tr>
 
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -98,7 +148,7 @@
               <a href="https://arxiv.org/abs/2602.06643">arXiv</a> /
               <a href="https://x.com/RuiqianNai/status/2021224122794054143">X summary</a>
               <p></p>
-              <p>We present HuMI, a portable framework for humanoid whole-body learning via robot-free data collection. HuMI achieves 3x higher efficiency than teleoperation and a 70% success rate across diverse tasks and unseen environments. </p>
+              <p>We present <strong>HuMI</strong>, a portable framework for humanoid whole-body learning via robot-free data collection. HuMI achieves 3x higher efficiency than teleoperation and a 70% success rate across diverse tasks and unseen environments. </p>
             </td>
           </tr>
           
